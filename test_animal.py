@@ -12,7 +12,7 @@ def test_animal_creation():
     animal = Animal(1, "Simba", "lion", 5, None)
     assert animal.animal_id == 1
     assert animal.name == "Simba"
-    assert animal.species == "lion"
+    assert animal.specie == "lion"
     assert animal.age == 5
     assert animal.enclosure_id is None
 

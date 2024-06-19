@@ -7,7 +7,7 @@ class Enclosure:
         self.animals = []
 
     def add_animal(self, animal):
-        if animal.specie_id in self.allowed_species:
+        if animal.specie in self.allowed_species:
             self.animals.append(animal)
             animal.enclosure_id = self.enclosure_id
         else:
