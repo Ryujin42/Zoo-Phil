@@ -1,6 +1,6 @@
 class Enclosure:
-    def __init__(self, enclosure_id: int, name: str, size: str, allowed_species: list[int]):
-        self.enclosure_id = enclosure_id
+    def __init__(self, id: int, name: str, size: str, allowed_species: list[int]):
+        self.enclosure_id = id
         self.name = name
         self.size = size
         self.allowed_species = allowed_species
