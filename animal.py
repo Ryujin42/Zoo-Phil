@@ -1,16 +1,7 @@
-from specie import Specie
-from enclosure import Enclosure
-
-
 class Animal:
-    def __init__(self, id: int, name: str, species: Specie, age: int, enclosure: Enclosure):
-        self.id = id
+    def __init__(self, animal_id: int, name: str, specie_id: int, age: int, enclosure_id):
+        self.animal_id = animal_id
         self.name = name
-        self.species = species
+        self.specie_id = specie_id
         self.age = age
-        self.enclosure = enclosure
-
-    def __str__(self):
-        return f'{self.name} animal'
-
-
+        self.enclosure_id = enclosure_id
