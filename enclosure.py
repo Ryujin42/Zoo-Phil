@@ -1,5 +1,8 @@
+from specie import Specie
+
+
 class Enclosure:
-    def __init__(self, id: int, name: str, size: int):
+    def __init__(self, id: int, name: str, size: int, species: list[Specie]):
         self.id = id
         self.name = name
         self.size = size

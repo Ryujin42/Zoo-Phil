@@ -12,3 +12,5 @@ class Animal:
 
     def __str__(self):
         return f'{self.name} animal'
+
+
